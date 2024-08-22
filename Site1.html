@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--end font-awesome-->
+    <!--caminho CSS-->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!--end caminho CSS-->
+    <title>Apple HTML e CSS</title>
+</head>
+<body>
+    <header style="background-image: url('https://cdn.prod.website-files.com/62e89931273b5c21be76c486/63d6e48e046879cbf49c4085_estudo-de-caso-apple-p-1600.jpeg') ;">
+        <!---Container-->
+        <div class="container" >
+            <nav>
+                <a href="Site1.html">
+                    <img src="https://www.pngall.com/wp-content/uploads/11/Apple-Logo-Transparent.png" width="100px" alt="Logo">
+                </a>
+                <ul>
+                    <a href="Site1.html">Home</a>
+                    <a href="file:///C:/Users/Ciro/Desktop/Aprimorando/HTML/Teste1/Site2.html">Sobre</a>
+                    <a href="file:///C:/Users/Ciro/Desktop/Aprimorando/HTML/Teste1/Site3.html">Serviços e produtos</a>
+                    <a class="btn" href="Site4.html">Trabalhe Conosco</a>
+                </ul> 
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Apple</h1>
+                    <p>Participe da evolução e desenvolvimento de uma das maiores empresas e molde o </p>
+                    <h2>Futuro</h2>
+                    <a  href="Site3.html" class="btn animate-btn">Produtos</a>
+                    <a class="btn animate-btn" href="Site4.html">Faça parte</a> 
+                </div>
+            </section>
+        </div>
+        <!--end Container-->
+    </header>
+    <!--end header-->
+    <!--Experiencie -->
+    <section class="Experience">
+        <div class="container">
+            <div class="Experience-text">
+                <h3>Experiencie</h3>
+                <p>Sensações e memorias unicas que a tecnologia Apple proporciona a seus usuarios.</p>
+                <a href="Site3.html" class="btn animate-btn">Ver mais</a>
+            </div>
+            <div class="Experience-img">
+                <img src="CSS/IMG/apple-lineup.png" width="500px" alt="">
+            </div> 
+        </div>
+    </section>
+    <!--end Experience-->
+    <!--Experiencie 2! -->
+    <section class="Experience">
+        <div class="container">
+            <div class="Experience-img2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p_aT_fHpzuR1Z9MINPxSBJPnh2nh7l9Y0Q&s" width="300px" alt="">
+            </div>
+            <div class="Experience-text">
+                <h3>Como surgiu ?</h3>
+                <p>Descubra a historia por tras do surgimento de uma das maiores lideres em tecnologia e qualidade.</p>
+                <a href="Site2.html" class="btn animate-btn">Descubra</a>
+            </div>   
+        </div>
+    </section>
+    <!--end Experience-->
+    <!--Partners-->
+    <section class="Partner">
+        <div class="Partner-text">
+            <h3>Parcerias Aplle</h3>
+            <p>A Aplle valoriza o trabalho e participação de seus parceiros e colaboradores, veja a seguir alguns colaboradores:</p>
+        </div>
+        <div class="Partner-img">
+            <a href="https://www.redbox.com/" target="_blank">
+                <img src="https://searchads.apple.com/asadam/br/pt_br/images/partners/2023-12/partner_logo_redbox.png" width="200px" alt="">
+            </a>
+            <a href="https://www.searchads.com/" target="_blank">
+                <img src="https://searchads.apple.com/asadam/br/pt_br/images/partners/2023-02/partner_logo_searchads.png" width="200px" alt="">
+            </a>
+            <a href="https://splitmetrics.com/?campaignid=17490077990&adgroupid=138133677496&adid=617892616442&utm_term=split%20metrics&utm_campaign=Search_SplitMetrics_Brand_Lat_Am_Mex&utm_source=adwords&utm_medium=ppc&hsa_acc=2421449748&hsa_cam=17490077990&hsa_grp=138133677496&hsa_ad=617892616442&hsa_src=g&hsa_tgt=kwd-688745388366&hsa_kw=split%20metrics&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwqMO0BhA8EiwAFTLgICoPE6ZgWqRKUbydrszw0XY1j26C5y736FdR_RBacWKt9SMaqBDRKhoCWL8QAvD_BwE" target="_blank" >
+                <img src="https://searchads.apple.com/asadam/br/pt_br/images/partners/2023-02/partner_logo_split-mertics.png" width="200px" alt="">
+            </a>
+            <a href="https://uni-corn.net/#asa" target="_blank">
+                <img src="https://searchads.apple.com/asadam/br/pt_br/images/partners/2023-02/partner_logo_unicorn.png" width="200px" alt="">
+            </a>
+        </div>   
+    </section>
+    <!--end Partners-->
+    <!--Footer-->
+        <footer class="Footer">
+            <div class="container">
+                <div class="icons">
+                    <a href="https://www.facebook.com/apple"> <i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.instagram.com/apple/"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#"> <i class="fa-brands fa-x-twitter"> </i> </a>
+                </div>
+                <div class="text">
+                    <p>Siga nossas redes sociais para mais informações</p>
+                </div>
+            </div>
+        </footer>
+    <script src="main.js"></script>    
+        
+</body>
+</html>

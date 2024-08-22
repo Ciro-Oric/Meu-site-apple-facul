@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--end font-awesome-->
+    <link rel="stylesheet" href="CSS/Style4.css">
+    <title>Document</title>
+    <script>
+        // Função que será chamada quando o botão for clicado
+        function mostrarAlerta() {
+            alert('Você clicou no botão!');
+        }
+    </script>
+
+</head>
+<body>
+    <!--Banner do inicio da página-->
+    <header style="background-image: url(CSS/IMG/Faça\ parte.png);"> 
+        <!--Aba de navegação com links-->
+        <div class="container" >
+            <nav>
+                <a href="Site1.html">
+                    <img src="https://www.pngall.com/wp-content/uploads/11/Apple-Logo-Transparent.png" width="100px"  alt="Logo">
+                </a>
+                <ul>
+                    <a href="Site1.html">Home</a>
+                    <a href="file:///C:/Users/Ciro/Desktop/Aprimorando/HTML/Teste1/Site2.html">Sobre</a>
+                    <a href="file:///C:/Users/Ciro/Desktop/Aprimorando/HTML/Teste1/Site3.html">Serviços e produtos</a>
+                    <a class="btn" href="Site4.html">Trabalhe Conosco</a>
+                </ul> 
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="close-icon" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </nav>
+        <!--End Aba de navegação com links-->
+
+        <!--Texto do Banner-->
+        <section class="banner">
+            <div class="banner-text">
+            <h1>Faça parte</h1>
+            <h2>Venha fazer a diferença e mudar o mundo!</h2>
+            <a  href="file:///C:/Users/Ciro/Desktop/Aprimorando/HTML/Teste1/Site1.html" class="btn animate-btn">Home</a>
+            <a class="btn animate-btn" href="Site4.html">Faça parte</a>
+        </section>
+        <!--End Texto do Banner-->
+        </div>
+       </div>    
+    </header>
+    <section class="titulo-cadastro">
+        <h1>Envie sua inscrição agora</h1>
+        <p>Complete suas informações</p>
+    </section>
+
+
+    <!--Formulario-->
+    <form class="form">
+        <fieldset class="field">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div>
+                <label for="">Sexo:</label>
+                <label for="masculino">
+                    <input type="radio" name="masculino" id="masculino">Masculino
+                </label>
+
+                <label for="feminino">
+                    <input type="radio" name="feminino" id="feminino">Feminino
+                </label>
+
+                <label for="">
+                    <input type="radio" name="naodec" id="naodec">Não declarar
+                </label>
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" nome="email" id="email" required>
+            </div>
+
+            <div class="text-box">
+                <br>
+                <label for="">Nos conte um pouco mais sobre você:</label>
+                <br>
+                <textarea rows="6" style="width: 50%;" name="voce" id="voce"></textarea>
+            </div>
+           
+            <div>
+                
+                <button onclick="mostrarAlerta()" class="button" type="submit">Enviar formulario</button>
+                
+
+            </div>
+            
+        </fieldset>
+        
+    </form>
+
+    <!--Footer-->
+    <footer class="Footer">
+        <div class="container">
+            <div class="icons">
+                <a href="https://www.facebook.com/apple"> <i class="fa-brands fa-facebook"></i> </a>
+                <a href="https://www.instagram.com/apple/"> <i class="fa-brands fa-instagram"></i> </a>
+                <a href="#"> <i class="fa-brands fa-x-twitter"> </i> </a>
+            </div>
+            <div class="text">
+                <p>Siga nossas redes sociais para mais informações</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+    <!--End Banner do inicio da página-->
